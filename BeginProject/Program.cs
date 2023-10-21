@@ -1,8 +1,13 @@
-﻿//5 задание по модулю 1
+﻿
 using BeginProject;
 
+//5 задание по модулю 1
 
-        Console.WriteLine("Введите числа через пробел:");
+Console.WriteLine("Привет! Пожалуйста, введите ваше ФИО:");
+string fullName = Console.ReadLine();
+Console.WriteLine("Приветствую тебя - " + fullName);
+//6 задание по модулю 1
+Console.WriteLine("Введите числа через пробел:");
         string input = Console.ReadLine();
 
         // Разделяем ввод на отдельные числа
@@ -26,3 +31,5 @@ using BeginProject;
 
         Console.WriteLine($"Сумма введенных чисел: {sum}");
         Console.ReadLine(); // чтобы консольное окно не закрылось сразу после вывода суммы
+    
+
