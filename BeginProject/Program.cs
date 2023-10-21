@@ -1,10 +1,7 @@
 ﻿//5 задание по модулю 1
 using BeginProject;
 
-class Program
-{
-    static void Main(string[] args)
-    {
+
         Console.WriteLine("Введите числа через пробел:");
         string input = Console.ReadLine();
 
@@ -29,6 +26,3 @@ class Program
 
         Console.WriteLine($"Сумма введенных чисел: {sum}");
         Console.ReadLine(); // чтобы консольное окно не закрылось сразу после вывода суммы
-    }
-
-}
