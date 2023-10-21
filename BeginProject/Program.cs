@@ -1,4 +1,4 @@
-﻿//5 задание
+﻿//5 задание по модулю 1
 class Program
 {
     static void Main(string[] args)
